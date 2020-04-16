@@ -52,7 +52,7 @@ function retrieveProduct() {
   $('#labelDesc').html(product.description);
   $('#labelDetails').html(product.details);
   $('#usdzLink').html(product.usdzFile);
-  $('#gtlfLink').html(product.usdzFile);
+  $('#gtlfLink').html(product.gltfFile);
   loadProductImages(product.images);
 
   showLastCategory(categoryId);

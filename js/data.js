@@ -18,7 +18,7 @@ products = [
       images: ["grid4.jpg" ],
       downloads: [],
       usdzFile: "crib.usdz",
-      gltfFile: "crib.usdz"
+      gltfFile: "crib.gltf"
     }
   ],
 
@@ -30,7 +30,9 @@ products = [
       details: "",
       thumbnail: "grid5.jpg",
       images: ["grid5.jpg"],
-      downloads: []
+      downloads: [],      
+      usdzFile: "table.usdz",
+      gltfFile: "table.gltf"
     }
   ],
 
