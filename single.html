@@ -25,13 +25,12 @@ $( document ).ready(function() {
   retrieveProduct();
 });
       </script>
-        <script type="module"
-            src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
-        </script> 
-        <script nomodule
-            src="https://unpkg.com/@google/model-viewer@0.3.1/dist/model-viewer-legacy.js">
+        
+        <script type="module" src="https://unpkg.com/@google/model-viewer@v0.9.0/dist/model-viewer.js">
         </script>
         
+        <script nomodule="" src="https://unpkg.com/@google/model-viewer@v0.9.0/dist/model-viewer-legacy.js">
+        </script>
 		<!--script-->
          <!-- FlexSlider -->
             <script src="js/imagezoom.js"></script>
@@ -133,9 +132,10 @@ $( document ).ready(function() {
                         <div class="clearfix"></div>
                         </div>
                         <ul>
-                            <li class="ad-2-crt simpleCart_shelfItem">
-                                <model-viewer alt="A 3D model of an astronaut." src="crib.glb" ios-src="crib.usdz" auto-rotate camera-controls magic-leap ar unstable-webxr>
-                            </li>
+                            
+                           <model-viewer src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948" ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878" alt="A 3D model of an astronaut" shadow-intensity="1" camera-controls="" interaction-prompt="auto" auto-rotate="" ar="" magic-leap="" data-js-focus-visible="">
+    </model-viewer>
+                            
                         </ul>
                         
                     </div>
