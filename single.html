@@ -25,6 +25,10 @@ $( document ).ready(function() {
   retrieveProduct();
 });
       </script>
+        <script type="module"
+            src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+        </script> 
+        
 		<!--script-->
          <!-- FlexSlider -->
             <script src="js/imagezoom.js"></script>
@@ -47,7 +51,7 @@ $( document ).ready(function() {
             <div class="container">
                 <div class="header-top">
                     <div class="logo">
-                        <a href="index.html">PRODUCTS</a>
+                        <a href="index.html">PRODUTOS</a>
                     </div>
         <div class="clearfix"></div>
                 </div>
@@ -86,7 +90,7 @@ $( document ).ready(function() {
                 <ol class="breadcrumb">
                     <li><a href="#">Home</a></li>
                     <li><a id="labelCategory" href="#"></a></li>
-                    <li class="active">PRODUCT</li>
+                    <li class="active">PRODUTO</li>
                 </ol>
             </div>
         </div>
@@ -122,17 +126,20 @@ $( document ).ready(function() {
                     <hr class="featurette-divider">
                     <div class="shocase-rt-bot">
                         <div class="float-qty-chart">
-                        <ul>
-                            <li>
-                                <h3>SCHEMATICS</h3>
-                                <select class="form-control siz-chrt">
-                                  <option>PDF</option>
-                                  <option>SolidWorks</option>
-                                </select>
-                            </li>
-                        </ul>
+                        
                         <div class="clearfix"></div>
                         </div>
+                        
+                        <ul>
+                            
+                            
+                            <li class="ad-2-crt simpleCart_shelfItem">
+                                
+                                
+                                <model-viewer alt="A 3D model of an astronaut." src="crib.glb" ios-src="Astronaut.usdz" magic-leap ar>
+                            </li>
+                        </ul>
+                        
                         <ul>
                             <li class="ad-2-crt simpleCart_shelfItem">
                                 <a class="btn" href="#" role="button">Download</a>

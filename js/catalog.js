@@ -51,6 +51,8 @@ function retrieveProduct() {
   $('#labelTitle').html(product.name);
   $('#labelDesc').html(product.description);
   $('#labelDetails').html(product.details);
+  $('#usdzLink').html(product.usdzFile);
+  $('#gtlfLink').html(product.usdzFile);
   loadProductImages(product.images);
 
   showLastCategory(categoryId);
