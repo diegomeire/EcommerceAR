@@ -16,8 +16,8 @@ products = [
       thumbnail: "Crib.jpg",
       images: ["Crib.jpg" ],
       downloads: [],
-      usdzFile: "Crib.usdz",
-      gltfFile: "Crib.gltf"
+      usdzFile: "Crib1.usdz",
+      gltfFile: "Crib1.gltf"
     },
     // product
     { name: "Berço com armário",
