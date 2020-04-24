@@ -3,8 +3,7 @@
 categoriesShowAdditionalList = [1,2,3];
 
 categories = [
-    { name: "Berços", image: "grid4.jpg" },
-    { name: "Brinquedos", image: "grid5.jpg" }
+    { name: "Berços", image: "Crib.jpg" }
   ];
 
 products = [
@@ -14,12 +13,33 @@ products = [
     { name: "Berço",
       description: "Nullam leo tellus",
       details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies lacinia augue, sed tincidunt lorem gravida vitae. Duis pretium lobortis augue, non mattis magna tincidunt in.",
-      thumbnail: "grid4.jpg",
-      images: ["grid4.jpg" ],
+      thumbnail: "Crib.jpg",
+      images: ["Crib.jpg" ],
       downloads: [],
-      usdzFile: "crib.usdz",
-      gltfFile: "crib.gltf"
-    }
+      usdzFile: "Crib.usdz",
+      gltfFile: "Crib.gltf"
+    },
+    // product
+    { name: "Berço com armário",
+      description: "Nullam leo tellus",
+      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies lacinia augue, sed tincidunt lorem gravida vitae. Duis pretium lobortis augue, non mattis magna tincidunt in.",
+      thumbnail: "Crib2.jpg",
+      images: ["Crib2.jpg" ],
+      downloads: [],
+      usdzFile: "Crib2.usdz",
+      gltfFile: "Crib2.gltf"
+    },
+          // product
+    { name: "Trocador",
+      description: "Nullam leo tellus",
+      details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies lacinia augue, sed tincidunt lorem gravida vitae. Duis pretium lobortis augue, non mattis magna tincidunt in.",
+      thumbnail: "Crib3.jpg",
+      images: ["Crib3.jpg" ],
+      downloads: [],
+      usdzFile: "Crib3.usdz",
+      gltfFile: "Crib3.gltf"
+    },
+      
   ],
 
   // category

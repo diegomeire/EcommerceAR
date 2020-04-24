@@ -51,8 +51,10 @@ function retrieveProduct() {
   $('#labelTitle').html(product.name);
   $('#labelDesc').html(product.description);
   $('#labelDetails').html(product.details);
-  $('#usdzLink').html(product.usdzFile);
-  $('#gtlfLink').html(product.gltfFile);
+    
+   var model3dString = '<model-viewer src="' + product.gltfFile + '" ios-src="' + product.usdzFile + '" alt="3D visualization" shadow-intensity="1" camera-controls interaction-prompt="auto" auto-rotate ar magic-leap data-js-focus-visible/>';
+  $('#model3d').append( model3dString);
+
   loadProductImages(product.images);
 
   showLastCategory(categoryId);
